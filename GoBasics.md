@@ -49,9 +49,9 @@ func healthCheckExample() {
 	}
 }
 
-// =============================================================================
+// =================
 // Q2: How does Go's garbage collection work? Why important for long-running?
-// =============================================================================
+// =================
 /*
 ANSWER:
 - Go uses concurrent, tri-color mark-and-sweep GC
@@ -716,3 +716,4 @@ func main() {
 	structInitialization()
 
 }
+
